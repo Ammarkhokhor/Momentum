@@ -1,37 +1,40 @@
-![](fastlane/metadata/android/en-US/images/icon200x200.png)
+![](fastlane/metadata/android/en-US/images/featureGraphic.png)
 
-# Momentum
+[<img src="badges/playstore.png" alt="Google Play" width="180">](https://play.google.com/store/apps/details?id=shub39.momentum.play)
+[<img src="badges/github.png" alt="Github" width="180">](https://github.com/shub39/Momentum/releases)
 
-### App to make montages easily
+## Screenshots
 
-> [<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android2.svg">]()
-> [<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/AndroidStudio/androidstudio3.svg">]()
-> [<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Kotlin/kotlin1.svg">]()
-
-> ### Get On
-> [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=shub39.momentum.play&pcampaignid=web_share)
-
-## Screenshots 📱
-
-| ![Image 1](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) | ![Image 2](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) |
+| ![Image 1](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png) | ![Image 2](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png) |
 |:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
-| ![Image 3](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) | ![Image 4](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png) |
-| ![Image 5](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png) | ![Image 6](fastlane/metadata/android/en-US/images/phoneScreenshots/6.png) |
+| ![Image 3](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png) | ![Image 4](fastlane/metadata/android/en-US/images/phoneScreenshots/6.png) |
+| ![Image 5](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png) | ![Image 6](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png) |
 
-## Features ✨
->- [x] Montage maker with customisations
->- [x] Auto face stabilisation
->- [x] Calendar View
->- [x] Daily reminders
+## Features
 
-## Motivation 💭
-I always wanted a simple app to make making montages
-like [this](https://www.youtube.com/watch?v=65nfbW-27ps&t=21s&pp=ygURYWdlIDEyIHRvIG1hcnJpZWQ%3D)
-effortless and convenient. This has been brewing in my mind
-for over an year and Revenuecat shipaton was the best excuse to give myself a challenge to build it.
-This app is offline first and privacy friendly,
-everything stays on your device.
+- [x] Montage maker with customisations
+- [x] Auto face stabilisation
+- [x] Calendar View
+- [x] Daily reminders
 
-## References and Inspiration 💡
-- [Agelapse](https://github.com/hugocornellier/agelapse) by Hugo Cornellier
+## Motivation
+
+I always wanted a simple app to make making montages like [this](https://youtu.be/65nfbW-27ps)
+effortless and convenient.
+This has been brewing in my mind for over an year and Revenuecat shipaton 2025 was the best excuse
+to give myself a challenge to build it.
+This app is offline first and privacy friendly, everything stays on your device.
+
+## Inspiration and Tech used
+
+- [Agelapse](https://github.com/hugocornellier/agelapse) by Hugo Cornellier (the guy who started it
+  all)
 - [Daily You](https://github.com/Demizo/Daily_You)
+- Kotlin and Jetpack Compose 🖤
+- [MaterialKolor](https://github.com/jordond/MaterialKolor)
+- [ColorPicker Compose](https://github.com/skydoves/colorpicker-compose)
+- [Landscapist](https://github.com/skydoves/landscapist)
+- [Revenuecat Android SDK](https://github.com/RevenueCat/purchases-android)
+- [FileKit](https://github.com/vinceglb/filekit)
+- [Mediapipe Tasks Vision](https://github.com/google-ai-edge/mediapipe)
+- [Compose Calendar](https://github.com/boguszpawlowski/ComposeCalendar)
