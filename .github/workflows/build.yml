@@ -19,9 +19,12 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew assembleDebug
 
-      - name: Upload APK
+      - name: Find and Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: momentum-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
-          
+          # This line uses 'find' to locate any .apk file regardless of subfolders
+          path: |
+            **/*.apk
+            !**/build/**/outputs/apk/androidTest/**
+
