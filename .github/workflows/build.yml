@@ -17,14 +17,13 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew assembleDebug
+        run: ./gradlew assembleRelease
 
       - name: Find and Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: momentum-debug-apk
-          # This line uses 'find' to locate any .apk file regardless of subfolders
+          name: momentum-release-apk
           path: |
             **/*.apk
             !**/build/**/outputs/apk/androidTest/**
-
+            
