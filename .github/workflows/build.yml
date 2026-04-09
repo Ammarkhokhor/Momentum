@@ -16,13 +16,13 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build with Gradle
+      - name: Build Slim APKs
         run: ./gradlew assembleRelease
 
       - name: Find and Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: momentum-release-apk
+          name: momentum-final-build
           path: |
             **/*.apk
             !**/build/**/outputs/apk/androidTest/**
